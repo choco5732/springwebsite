@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디자인과제2-1</title>
+    <link rel="stylesheet" type="text/css" href = "design2_1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div id="container">
+    <!-- navbar -->
+        <header>
+            <section id="top">
+                <br>
+                <span id="logo">
+                    <img src="images/logo.png" >
+                </span>
+
+                <span id="KREN">
+                    <a id = "kr" href="#">KR </a>
+                    |
+                    <a id = "en" href="#"> EN</a>
+                </span>
+                <br>
+                <span class ="top_menu">
+                    <a id="top_menu1" href="#">CK소개</a>
+                    <a id="top_menu2" href="#">채용공고</a>
+                    <a id="top_menu3" href="#">인재서비스</a>
+                    <a id="top_menu4" href="#">인터뷰</a>
+                    <a id="top_menu5" href="#">공지사항</a>
+                </span>
+            </section>
+        <!-- 노란색 상반기 공채  -->
+            <section id="top_side">
+                <br>
+                <strong>FUSIONSOFT</strong><br>
+                2020상반기 공채
+            </section>
+        </header>
+
+    <!-- main 1 -->
+    <div class="main1">
+        <div class="main1_1">
+            <p>
+                <strong>
+                    FUSIONSOFT
+                    <br>
+                    RECRUIT 
+                </strong>
+            </p>
+        </div>
+        <div class="main1_2">
+            <p>
+                퓨전소프트의 미래를 이끌어 나갈<br>
+                <span style = "color: yellow;">인재</span>를 기다리고 있습니다.
+            </p>
+        </div>
+    </div>
+        <br><br><br>
+
+    <!-- main 2 -->
+    <div class="main2">
+        <div id = "main2_1">
+            <p id = "main2_1_1"><strong>직종별</strong></p>
+            <select id="select2_1">
+                <option></option>
+                <option></option>
+            </select>
+            <p id = "main2_1_2"><strong>부서별</strong></p>
+            <select id="select2_2">
+                <option></option>
+                <option></option>
+            </select>
+            <p id = "main2_1_3"><strong>경력</strong></p>
+            <select id="select2_3">
+                <option></option>
+                <option></option>
+            </select>
+            <br>
+            <button id = "button2_1">검색</button>
+            <button id = "button2_2">전체보기</button>
+        </div>
+
+        <div id = "main2_2">
+            <p id="main2_2_p">
+                <strong>신입경력</strong>
+                <br>
+                채용공고 검색
+            </p>
+            <img id = "image01" src="images/img_01.png" >
+        </div>
+
+    </div>
+    <!-- main 3 -->
+
+        <div id="main3">
+            <div id = "main3_1">
+                <img src="images/banner_01.png">
+            </div>
+
+            <div id = "main3_2">
+                <p id="main3_2_1">마케팅 지식</p>
+                <p id="main3_2_2">It is a company leading the Edutech market
+                   with various technologies. A digital textbook
+                   platform has been established and operated
+                   in cooperation with the Korean Educational
+                   Academic Information Service, a public... </p>
+                <br><br>
+                <a href="#" id="main3_2_3">자세히보기</a>
+            </div>
+        
+            <div id="main3_3">
+                <p id="main3_3_1">주요 새소식</p>
+                <div id="main3_3_2">
+                    <img src="images/img_02.png"/>
+                </div>
+                <p id="main3_3_3">공지사항</p>
+                <p id="main3_3_4">인턴 교육 프로그램 지원 안내</p>
+                <br>
+                <hr id="main3_3_5">
+            </div>
+        </div>
+
+
+    <!-- main 4 -->
+        <div id="main4">
+            <div id = "main4_1">
+                <p id="main4_1_1"><strong>이달의 </strong>부서</p>
+                <img id="main4_1_2" src="images/img_03.png">
+                <p id="main4_1_3">물류서비스팀</p>
+            </div>
+
+            <div id = "main4_2">
+                <div id = "main4_2_1">
+                    <a href = "#" id="image4_2_1">
+                        <img  src="images/ico_play.png"/>
+                        <br>
+                        홍보영상 보기
+                    </a>
+                </div>
+            </div>
+
+            <div id = "main4_3">
+                <p id = "main4_3_1">
+                    <i class="fa-solid fa-circle"></i> 2020 4차 산업혁명 박람회 관람<br><br>
+                    <i class="fa-solid fa-circle"></i> 사내 교육 일정 안내
+                </p>
+                <br>
+                <img id = "main4_3_2"src="images/img_04.png"/>
+                <p id = "main4_3_3">자료실</p>
+                <p id = "main4_3_4">주요 서식 다운로드</p>  
+                <br>  
+                <hr id = "main4_3_5">
+            </div>
+
+        </div>
+
+        <div class="modal">
+            <div class="modal_content"
+                title="클릭하면 창이 닫힙니다.">
+                <div id="modal_image"><img src="images/btn_modal_close.png"></div>
+                이달의 부서 클릭시<br>
+                모달창 테스트<br>
+                성공!
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Footer -->
+        <footer>
+            <br><br>
+            <div class="foo_div">
+                <img id="foo_img1" src="images/footer_ico_m.png">
+                <img id="foo_img2" src="images/footer_ico_t.png">
+                <img id="foo_img3" src="images/footer_ico_f.png">
+            </div>
+            <br>
+            <p id="foot_right">
+                Copyright <i class="fa-regular fa-copyright"></i> Fusionsoft All rights reserved.
+            </p>
+        </footer>
+
+    <script>
+        	$(document).ready(function() {
+                $("#main4_1").click(function(){
+                $(".modal").fadeIn();
+            });
+                $("#modal_image").click(function(){
+                $(".modal").fadeOut();
+            });
+    });
+            
+    </script>
+</body>
+</html>
