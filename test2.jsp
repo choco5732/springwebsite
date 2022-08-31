@@ -89,7 +89,7 @@
         });
 
         // $(".delBtn").click(function(){
-        $("#commentList").on("click", "delBtn", function () { // commentList안에 있는 del버튼을 눌렀을때 작동
+        $("#commentList").on("click", ".delBtn", function () { // commentList안에 있는 del버튼을 눌렀을때 작동
             let cno = $(this).parent().attr("data-cno");
             let bno = $(this).parent().attr("data-bno");
 
